@@ -1,0 +1,123 @@
+
+.main-page-header{
+    color:white !important;
+}
+
+.text-capitalize{
+    text-transform: capitalize !important;
+    font-size: 16px;
+}
+
+.dropdown{
+    position: relative;
+}
+.dropdown-menu {
+    min-width: 250px;
+    right: -78px !important;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.dropdown-menu a{
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown a:hover{
+    color:red;
+    background-color: whitesmoke;
+}
+
+.video-display{
+    width:80%;
+    margin: auto;
+    padding:10px
+}
+.video-display video{
+    width:100%;
+}
+
+.table-library th{
+    text-align:right
+}
+@media only screen and (min-width:700px) {
+    .file_operation{
+        width:130px
+    }
+
+    .file_table th:not(.file_table th:first-child){
+        width:30%;
+    }
+
+    .file_table th:last-child{
+        width:40% !important
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-initiative-article{
+        margin:15px;
+    }
+}
+
+.about-initiative-article{
+    padding:15px;
+    border-radius: 10px;
+}
+
+.mobile{
+    display:none !important;
+}
+
+@media only screen and (max-width:1023px){
+    .mobile{
+        display:block !important;
+    }
+    .hidden-mobile{
+        display: none !important;
+    }
+}
+
+.image{
+    margin-bottom: 70px;
+}
+
+.image img{
+    border-radius: 50%;
+    transition: all 0.1s;
+    display: block;
+    margin: auto;
+}
+
+.image img:hover{
+    transform: scale(1.03);
+}
+
+.profil_article:hover{
+    transform: scale(1.01);
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.main-header-p{
+    margin-top:25px;
+}
+
+.download-video-buttons{
+    padding:0 20px 20px;
+}
+
+.download-video-buttons a{
+   display: block;
+    margin: auto;
+}
+
+.file_operation:hover{
+    color:white !important;
+}
+
